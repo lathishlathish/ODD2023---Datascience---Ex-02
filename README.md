@@ -92,17 +92,30 @@ weight_new=df[((df['weight']>=weight_low)&(df['weight']<=weight_high))]
 sns.boxplot(y='weight',data=weight_new)
 ```
 ### Output:
-##### bhp.csv:
-<img height=30% width=70% src="https://github.com/ROHITJAIND/Ex-02_Outlier-Detection/assets/118707073/c62482aa-13d3-4e93-84f3-14d77e12ff94">
-<img height=20% width=49% src="https://github.com/ROHITJAIND/Ex-02_Outlier-Detection/assets/118707073/550161a2-7e49-4873-b9d3-2dee79909859">  <img height=30% width=49% src="https://github.com/ROHITJAIND/Ex-02_Outlier-Detection/assets/118707073/77006c4a-5f65-4c46-b43d-62da3adeae72">
-<img height=30% width=49% src="https://github.com/ROHITJAIND/Ex-02_Outlier-Detection/assets/118707073/6ab44ad1-3d24-49ac-8ed8-0a873ee9094c"><img height=30% width=49% src="https://github.com/ROHITJAIND/Ex-02_Outlier-Detection/assets/118707073/699f1ddd-dfb7-4d58-abd5-69614106d9d4">
+## bhp.csv:
 
-##### weight_height.csv:
-<img height=30% width=60% src="https://github.com/ROHITJAIND/Ex-02_Outlier-Detection/assets/118707073/ea846d57-a472-4b28-8d0a-3c405d80f8e0"><img height=30% width=38% src="https://github.com/ROHITJAIND/Ex-02_Outlier-Detection/assets/118707073/beead9e7-e4bc-4431-a536-bacdb947e6b6">  
+<img height=30% width=70% src="https://github.com/abinayasangeetha/ODD2023---Datascience---Ex-02/assets/119393675/5768615e-246e-4320-8f09-aa5765346efa">
 
-<img height=30% width=48% src="https://github.com/ROHITJAIND/Ex-02_Outlier-Detection/assets/118707073/952f228c-8518-4f91-b966-fda9215eb959"><img height=30% width=48% src="https://github.com/ROHITJAIND/Ex-02_Outlier-Detection/assets/118707073/35fbb5b8-69b9-4592-9685-d81d4cb0f844">  
+<img height=30% width=70% src="https://github.com/abinayasangeetha/ODD2023---Datascience---Ex-02/assets/119393675/3bdef95e-fae0-47c1-b7b3-68f79bcceb30">
 
-<img height=30% width=48% src="https://github.com/ROHITJAIND/Ex-02_Outlier-Detection/assets/118707073/3606e325-b846-412f-b0c2-e56d74b16427"><img height=30% width=48% src="https://github.com/ROHITJAIND/Ex-02_Outlier-Detection/assets/118707073/14b3b742-5bfe-47c2-954b-7ee7315c6848">  
+<img height=30% width=70% src="https://github.com/abinayasangeetha/ODD2023---Datascience---Ex-02/assets/119393675/6409d819-3af9-4a82-87fb-e9b92af337d1">
+
+<img height=30% width=70% src="https://github.com/abinayasangeetha/ODD2023---Datascience---Ex-02/assets/119393675/c29237f2-9267-432c-84c4-6362f1d148af">
+
+## weight_height.csv:
+
+<img height=30% width=70% src="https://github.com/abinayasangeetha/ODD2023---Datascience---Ex-02/assets/119393675/b1382ef8-6c0e-4484-ae5f-00847ea61599">
+
+
+<img height=30% width=70% src="https://github.com/abinayasangeetha/ODD2023---Datascience---Ex-02/assets/119393675/9bcbd4ae-a194-4773-9925-be6e19db3fd4">
+
+
+<img height=30% width=70% src="https://github.com/abinayasangeetha/ODD2023---Datascience---Ex-02/assets/119393675/a6cb741b-1abe-4db2-9666-4ba8319b4cc9">
+
+<img height=30% width=70% src="https://github.com/abinayasangeetha/ODD2023---Datascience---Ex-02/assets/119393675/f95aa03a-90ec-47ca-9415-3bcd1c847ca7">
+
+<img height=30% width=70% src="https://github.com/abinayasangeetha/ODD2023---Datascience---Ex-02/assets/119393675/57e6a181-650d-45d7-8e79-adb323a64334">
+
 
 ### Result:
 Hence the given set of data is read and the outliers are removed using the IQR method and Zscore method.
